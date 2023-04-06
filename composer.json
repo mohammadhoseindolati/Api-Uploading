@@ -1,0 +1,18 @@
+{
+    "name": "dolati/uploader",
+    "description": "a simple uploader for laravel u can use in your project",
+    "autoload": {
+        "psr-4": {
+            "Dolati\\Uploader\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mohammadhoseindolati",
+            "email": "90058570+mohammadhoseindolati@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "illuminate/support" : ">=v10.0.0"
+    }
+}
