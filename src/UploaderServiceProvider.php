@@ -31,6 +31,7 @@ class UploaderServiceProvider extends ServiceProvider
             __DIR__ . '\config\uploader.php' => config_path('uploader.php') ,
             // __DIR__ . '\views' => base_path('resources/views/uploader') ,
             __DIR__ . '\Migrations' => database_path('migrations') ,
+            __DIR__ . '\Requests' => base_path('app/Http/Requests') ,
 
         ]);
     }
